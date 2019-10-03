@@ -1,0 +1,48 @@
+.header__brand{
+    polygon{
+        fill: White;
+        opacity: 0.7;
+        margin-left: 50px !important;
+    }
+}
+
+$nics-brand-colour: #0a7ad0;
+$nics-grey: rgb(172, 172, 172);
+
+.govuk-header {
+    background: $nics-brand-colour;
+    color: #fff;
+}
+
+.header.header--full-width {
+    margin-bottom: 0;
+    border-bottom-color: $nics-grey;
+}
+
+.govuk-header__navigation-item{
+    li{
+        height: 40px;
+    }
+}
+.govuk-header__navigation-item--active a:link, .govuk-header__navigation-item--active a:hover, .govuk-header__navigation-item--active a:visited {
+    color: White;
+    background: #085d9f;
+}
+
+
+.govuk-header__container {
+    border-bottom-color: $nics-grey;
+}
+
+.masthead {
+    background-color: $nics-grey;
+    color: black !important;
+  }
+
+  .govuk-header__logotype-crown {
+    margin-left: -41px;
+}
+
+.related-items {
+    border-top-color: $nics-brand-colour;
+  }

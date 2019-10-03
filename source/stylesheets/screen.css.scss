@@ -17,6 +17,7 @@ $govuk-assets-path: "/assets/govuk/assets/";
 @import "modules/responsive-embed";
 @import "modules/sub-navigation";
 
+@import "dss-product-page";
 // scss-lint:disable IdSelector
 #main-content {
   display: block;
